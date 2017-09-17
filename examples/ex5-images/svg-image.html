@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Scalable Vector Graphics</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>SVG</h1>
+    <p>Scalable Vector Graphics (SVG) differs from the <a href="images.html">images presented in the other file</a> since they
+        are <strong>vectors</strong>, that is, they are computed by mathematic formulas. As a consequence, they maintain
+        the same shape and quality regardless of the size and the resolution of the screen.</p>
+    <h2>Comparison SVG vs. PNG</h2>
+    <p>Here you can see the difference. The original .png image is 50x50 pixels. Notice how the quality deteriorates when scaled
+        up.
+    </p>
+
+    <img src="./circle.png" width="50" height="50"> <img src="./circle.png" width="250" height="250">
+
+    <p>On the contrary, SVG scales without any loss of quality</p>
+    <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="25" cy="25" r="24" fill="#FF0000" stroke="#000000" stroke-width="1" />
+    </svg>
+    <svg height="250" width="250" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="125" cy="125" r="124" fill="#FF0000" stroke="#000000" stroke-width="1" />
+    </svg>
+    <h2>How to include SVG</h2>
+    <p>There are 5 different ways to include SVG files in an HTML5 page :</p>
+    <ol>
+        <li>Inline, with the &lt;svg&gt; tag (see source of the previous example)</li>
+        <li>Using the &lt;img&gt; tag as for images, giving a <strong>src</strong> attributes that points to the svg external
+            file.</li>
+        <li>Using the &lt;embed&gt; tag</li>
+        <li>Using the &lt;object&gt; tag</li>
+        <li>Using an iframe</li>
+    </ol>
+    <p>In this page we will show just the img example. For more information, refer to the <a href="https://edutechwiki.unige.ch/fr/Tutoriel_SVG_statique">EduTechWiki page on static SVG</a>.</p>
+</body>
+
+</html>
