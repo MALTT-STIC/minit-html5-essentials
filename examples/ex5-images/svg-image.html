@@ -16,7 +16,8 @@
         up.
     </p>
 
-    <img src="./circle.png" width="50" height="50"> <img src="./circle.png" width="250" height="250">
+    <img src="./circle.png" width="50" height="50" alt="A circle" title="A circle"> <img src="./circle.png" width="250" height="250"
+        alt="A circle" title="A circle">
 
     <p>On the contrary, SVG scales without any loss of quality</p>
     <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg">
@@ -30,12 +31,18 @@
     <ol>
         <li>Inline, with the &lt;svg&gt; tag (see source of the previous example)</li>
         <li>Using the &lt;img&gt; tag as for images, giving a <strong>src</strong> attributes that points to the svg external
-            file.</li>
+            file.
+        </li>
         <li>Using the &lt;embed&gt; tag</li>
         <li>Using the &lt;object&gt; tag</li>
         <li>Using an iframe</li>
     </ol>
     <p>In this page we will show just the img example. For more information, refer to the <a href="https://edutechwiki.unige.ch/fr/Tutoriel_SVG_statique">EduTechWiki page on static SVG</a>.</p>
+    <h2>Include an SVG as an external image</h2>
+    <p>An SVG file has been downloaded from <a href="https://openclipart.org/detail/193012/man-working-at-computers">openclipart</a>        and saved in this folder. To include it, use the same principe as for images: &lt;img src="./computers.svg" width="250"
+        alt="Too many computers..." title="Too many computers..."&gt;</p>
+    <img src="./computers.svg" width="250" alt="Too many computers..." title="Too many computers...">
+
 </body>
 
 </html>

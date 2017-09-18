@@ -18,9 +18,10 @@
         <li>PNG</li>
     </ul>
 
-    <p>There is also the possibility to use <a href="http://edutechwiki.unige.ch/fr/SVG">SVG</a> files. Contrary to the formats
-        listed above, SVG are <a href="http://edutechwiki.unige.ch/fr/Image_vectorielle">vector images</a> (i.e. computed
-        mathematically), whereas the other are <a href="http://edutechwiki.unige.ch/fr/Image_matricielle">raster images</a>        (i.e. determined by pixles). SVG are presented in <a href="svg-image.html">another file in this folder.</a></p>
+    <p>There is also the possibility to use <a href="./svg-image.html">SVG</a> files. Contrary to the formats listed above,
+        SVG are <a href="http://edutechwiki.unige.ch/fr/Image_vectorielle">vector images</a> (i.e. computed mathematically),
+        whereas the other are <a href="http://edutechwiki.unige.ch/fr/Image_matricielle">raster images</a> (i.e. determined
+        by pixles).</p>
 
     <h2>How to include an image</h2>
     <p>In order to include an image you need:</p>
@@ -29,18 +30,19 @@
             through the http protocol (thus avoid Google drive or Dropbox files)</li>
         <li>The <strong>img</strong> tag with an src attribute with the reference to the image: &lt;img src="my-image.jpg"&gt;.
             The src attribute works like the href attribute for links: the attribute can be an absolute URL or a relative
-            path.</li>
+            path.
+        </li>
     </ol>
     <p>Here is an example of the HTML5 logo that <a href="https://www.w3.org/html/logo/">has been downloaded</a> and put in
         the same directory of this page:</p>
-    <p><img src="html5-logo.png"></p>
+    <p><img src="html5-logo.png" alt="HTML5 logo" title="HTML5 logo"></p>
     <p>The code is the following: &lt;img src="html5-logo.png"&gt;</p>
     <h2>Attributes for the image</h2>
     <p>The <strong>img</strong> tag has many attributes, but some of them are considered deprecated. For instance, if the original
         image is not of the right size, in the past it was common to use the <strong>width="100"</strong> and <strong>height="100"</strong>        attributes for the determining the pixels of each image. Nowadays, though, it is suggested to use <strong>CSS properties instead</strong>.</p>
     <p>An important attribute to use for accessibility/usability is the <strong>alt</strong> attribute, which should be used
         to describe the image for screen readers: &lt;img src="my-image.jpg" alt="The picture shows a photo of me in front
-        of a screen"></p>
+        of a screen"&gt; Often, we also use the attribute <strong>title</strong> with a descriptive text that shows on mouseover.</p>
     <h2>Basic guidelines for using images</h2>
     <p>Some advices:</p>
     <ul>
