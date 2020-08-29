@@ -8,34 +8,32 @@ TASK : create a basic registration form with this options
 - Submit button
 
 -->
-<!doctype html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms Challenge</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h1>Registration form</h1>
 
     <form>
-        <p>
-            <label>First and Last name: </label>
-            <input type="text" name="first-name">
-            <input type="text" name="last-name">
-        </p>
-        <p>
-            <label>Date of birth: </label>
-            <input type="date" name="dob">
-        </p>
-        <p>Gender:
-            <input type="radio" name="gender" value="M"> Man
-            <input type="radio" name="gender" value="F"> Woman</p>
-        <input type="submit" value="Send data">
+      <p>
+        <label>First and Last name: </label>
+        <input type="text" name="first-name" />
+        <input type="text" name="last-name" />
+      </p>
+      <p>
+        <label>Date of birth: </label>
+        <input type="date" name="dob" />
+      </p>
+      <p>
+        Gender: <input type="radio" name="gender" value="M" /> Man
+        <input type="radio" name="gender" value="F" /> Woman
+      </p>
+      <input type="submit" value="Send data" />
     </form>
-
-</body>
-
+  </body>
 </html>
