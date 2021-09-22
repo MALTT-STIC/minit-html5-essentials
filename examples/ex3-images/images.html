@@ -10,7 +10,7 @@
     <h1>Images</h1>
     <p>
       HTML pages are in fact containers of different elements, which can be
-      included in the page. External elements sholuld be supported by the
+      included in the page. External elements should be supported by the
       browsers in order to be rendered correctly - that is, the
       <a href="https://en.wikipedia.org/wiki/Media_type"
         >Media (or MIME) type</a
@@ -36,7 +36,7 @@
       <a href="http://edutechwiki.unige.ch/fr/Image_matricielle"
         >raster images</a
       >
-      (i.e. determined by pixles).
+      (i.e. determined by pixels).
     </p>
 
     <h2>How to include an image</h2>
@@ -60,7 +60,6 @@
       the same directory of this page:
     </p>
     <p><img src="html5-logo.png" alt="HTML5 logo" title="HTML5 logo" /></p>
-    <p>The code is the following: <img src="html5-logo.png" /></p>
     <h2>Attributes for the image</h2>
     <p>
       The <strong>img</strong> tag has many attributes, but some of them are
@@ -73,12 +72,18 @@
     <p>
       An important attribute to use for accessibility/usability is the
       <strong>alt</strong> attribute, which should be used to describe the image
-      for screen readers:
+      for screen readers.
+    </p>
+
+    <p>
       <img
         src="my-image.jpg"
         alt="The picture shows a
       photo of me in front of a screen"
+        title="How much time do I spend in front of a screen !"
       />
+    </p>
+    <p>
       Often, we also use the attribute <strong>title</strong> with a descriptive
       text that shows on mouseover.
     </p>
